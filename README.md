@@ -7,6 +7,14 @@ A modern, professional Astro.js template for logistics, manufacturing, and suppl
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.1.17-38B2AC?logo=tailwind-css&logoColor=white)
 
+## 🖼️ Preview
+
+### Website Screenshot
+<img alt="AstroFlow Website Preview" src="./public/AstroFlow - Astrojs Logistics & Manufacturing Website Template.png" />
+
+### Performance & Speed
+<img alt="Performance Metrics" src="./public/speed-metrics.png" />
+
 ## ✨ Features
 
 - 🚀 **Built with Astro** - Fast, modern static site generation
@@ -125,7 +133,6 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 │   ├── components/      # Reusable components
 │   │   ├── home/        # Home page components
 │   │   ├── react/       # React interactive components
-│   │   ├── sections/    # Section components
 │   │   └── ui/          # UI components
 │   ├── config/          # Configuration files
 │   ├── layouts/         # Page layouts
