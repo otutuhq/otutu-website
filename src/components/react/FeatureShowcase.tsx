@@ -49,7 +49,7 @@ const features = [
 
 export default function FeatureShowcase() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 px-4 md:px-0">
       {features.map((feature, index) => (
         <motion.div
           key={feature.title}
@@ -59,9 +59,9 @@ export default function FeatureShowcase() {
           transition={{ duration: 0.5, delay: index * 0.1 }}
           className="group cursor-pointer"
         >
-          <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300">
+          <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 h-full">
             {/* Image */}
-            <div className="relative h-64 overflow-hidden">
+            <div className="relative h-48 sm:h-56 md:h-64 overflow-hidden">
               <motion.img
                 src={feature.image.src}
                 alt={feature.title}
@@ -70,7 +70,7 @@ export default function FeatureShowcase() {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.4 }}
               />
-              <div className="absolute inset-0 bg-linear-to-t from-slate-900 via-slate-900/50 to-transparent opacity-60" />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent opacity-60" />
               
               {/* Icon overlay */}
               <motion.div
@@ -78,16 +78,16 @@ export default function FeatureShowcase() {
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.1 + 0.2 }}
-                className="absolute top-4 right-4 w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-lg"
+                className="absolute top-3 right-3 sm:top-4 sm:right-4 w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-lg flex items-center justify-center shadow-lg"
               >
-                <feature.icon className="w-6 h-6 text-blue-600" />
+                <feature.icon className="w-5 h-5 sm:w-6 sm:h-6 text-blue-600" />
               </motion.div>
             </div>
 
             {/* Content */}
-            <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-              <h3 className="text-xl font-bold mb-2">{feature.title}</h3>
-              <p className="text-sm text-gray-200 opacity-90">{feature.description}</p>
+            <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 text-white">
+              <h3 className="text-lg sm:text-xl font-bold mb-2 leading-tight">{feature.title}</h3>
+              <p className="text-xs sm:text-sm text-gray-200 opacity-90 leading-relaxed">{feature.description}</p>
             </div>
           </div>
         </motion.div>
@@ -95,4 +95,3 @@ export default function FeatureShowcase() {
     </div>
   );
 }
-

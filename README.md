@@ -1,4 +1,4 @@
-# AstroFlow - Logistics & Manufacturing Website Template
+# OTUTU - Logistics & Manufacturing Website Template
 
 A modern, professional Astro.js template for logistics, manufacturing, and supply chain companies. Built with React, Tailwind CSS, and TypeScript.
 
@@ -10,7 +10,7 @@ A modern, professional Astro.js template for logistics, manufacturing, and suppl
 ## 🖼️ Preview
 
 ### Website Screenshot
-<img alt="AstroFlow Website Preview" src="./public/AstroFlow - Astrojs Logistics & Manufacturing Website Template.png" />
+<img alt="OTUTU Website Preview" src="./public/OTUTU - Astrojs Logistics & Manufacturing Website Template.png" />
 
 ### Performance & Speed
 <img alt="Performance Metrics" src="./public/speed-metrics.png" />
@@ -45,8 +45,8 @@ A modern, professional Astro.js template for logistics, manufacturing, and suppl
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/astroflow.git
-cd astroflow
+git clone https://github.com/yourusername/OTUTU.git
+cd OTUTU
 ```
 
 2. Install dependencies:
@@ -173,11 +173,11 @@ This creates a `dist/` folder with your static site.
 
 ### Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/astroflow)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/OTUTU)
 
 ### Deploy to Netlify
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yourusername/astroflow)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yourusername/OTUTU)
 
 ### Other Platforms
 
@@ -194,7 +194,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/astroflow/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/OTUTU/issues).
 
 ## ⭐ Show Your Support
 
