@@ -11,7 +11,7 @@ import warehouseImg from '@assets/photo-1563013544-824ae1b704d3.jpg';
 
 <BaseLayout title="Request a Quote - Get Started Today">
   <!-- Hero Section with Professional Image -->
-  <section class="relative h-[500px] md:h-[600px] flex items-center overflow-hidden">
+  <section class="relative h-[70vh] min-h-[500px] md:h-[600px] flex items-center overflow-hidden">
     <!-- Background Image with Overlay -->
     <div class="absolute inset-0">
       <Image 
@@ -25,7 +25,7 @@ import warehouseImg from '@assets/photo-1563013544-824ae1b704d3.jpg';
     </div>
 
     <!-- Content -->
-    <div class="container mx-auto relative z-10 px-4 sm:px-6 lg:px-8">
+    <div class="container mx-auto relative z-10 px-4 sm:px-6 lg:px-8 py-12 md:py-0">
       <div class="max-w-4xl mx-auto text-center">
         <div class="inline-flex items-center px-4 py-2 mb-6 bg-linear-to-r from-blue-600 to-teal-600 text-white text-sm font-semibold rounded-full shadow-lg animate-fadeInUp">
           <FileText className="w-4 h-4 mr-2" />
@@ -61,6 +61,13 @@ import warehouseImg from '@assets/photo-1563013544-824ae1b704d3.jpg';
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <svg class="w-5 h-5 md:w-6 md:h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+      </svg>
     </div>
 
     <!-- Wave separator -->
@@ -287,4 +294,3 @@ import warehouseImg from '@assets/photo-1563013544-824ae1b704d3.jpg';
     </div>
   </Section>
 </BaseLayout>
-
